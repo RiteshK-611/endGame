@@ -1,0 +1,33 @@
+{
+    "top_line": "[Fall Guys] Twitch Highlights #1 | Fails, Satisfying/Funny Moments & Epic Wins!",
+    "channel": "https://www.youtube.com/channel/UC5WoREvy_Mi5wKaDCU1UJZQ",
+    "format_name": "Weekly Fall Guys Highlights",
+    "playlist_id": "PLIuf54ogXLNkvzTbg2AQ7OCgpFyIwwPg3",
+    "channel_name": "Jerk Clips",
+    "game": "Fall Guys",
+    "email": "youremail@web.de",
+    "schedule": "week",
+    "upload_day": "monday",
+    "social_media": [
+      {
+        "platform": "Instagram",
+        "link": "https://www.instagram.com/YourInstagramChannel"
+      }
+    ],
+    "recommended_videos": [
+      {
+        "title": "Previous Episode",
+        "link": "https://www.youtube.com/watch?AnyOwnVideoID"
+      }
+    ],
+    "featured_playlists": [
+      {
+        "title": "Fall Guys Weekly Highlights",
+        "link": "https://www.youtube.com/playlist?list=PLIuf54ogXLNkvzTbg2AQ7OCgpFyIwwPg3"
+      }
+    ],
+    "keywords": [
+      "Fall Guys"
+    ]
+  }
+  

@@ -1,0 +1,34 @@
+{
+    "top_line": "[Apex Legends] Twitch Highlights #1 | Fails, Satisfying/Funny Moments & Epic Wins!",
+    "channel": "https://www.youtube.com/channel/UC5WoREvy_Mi5wKaDCU1UJZQ",
+    "format_name": "Weekly Apex Legends Highlights",
+    "playlist_id": "PLIuf54ogXLNkYJ7FWbByEhoNqqYzfw5zh",
+    "channel_name": "Jerk Clips",
+    "game": "Apex Legends",
+    "email": "youremail@web.de",
+    "schedule": "week",
+    "upload_day": "monday",
+    "social_media": [
+      {
+        "platform": "Instagram",
+        "link": "https://www.instagram.com/YourInstagramChannel"
+      }
+    ],
+    "recommended_videos": [
+      {
+        "title": "Previous Episode",
+        "link": "https://www.youtube.com/watch?AnyOwnVideoID"
+      }
+    ],
+    "featured_playlists": [
+      {
+        "title": "Apex Legends Weekly Highlights",
+        "link": "https://www.youtube.com/playlist?list=PLIuf54ogXLNkYJ7FWbByEhoNqqYzfw5zh"
+      }
+    ],
+    "keywords": [
+      "apex legends",
+      "twitch"
+    ]
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "top_line": "[Valorant] Twitch Highlights #1 | Fails, Satisfying/Funny Moments & Epic Wins!",
+    "channel": "https://www.youtube.com/channel/UC5WoREvy_Mi5wKaDCU1UJZQ",
+    "format_name": "Weekly Valorant Highlights",
+    "playlist_id": "PLIuf54ogXLNl5uy0Itn1MSRYTxhjCtUks",
+    "channel_name": "Jerk Clips",
+    "game": "Valorant",
+    "email": "youremail@web.de",
+    "schedule": "week",
+    "upload_day": "monday",
+    "social_media": [
+      {
+        "platform": "Instagram",
+        "link": "https://www.instagram.com/YourInstagramChannel"
+      }
+    ],
+    "recommended_videos": [
+      {
+        "title": "Previous Episode",
+        "link": "https://www.youtube.com/watch?AnyOwnVideoID"
+      }
+    ],
+    "featured_playlists": [
+      {
+        "title": "Valorant Weekly Highlights",
+        "link": "https://www.youtube.com/playlist?list=PLIuf54ogXLNl5uy0Itn1MSRYTxhjCtUks"
+      }
+    ],
+    "keywords": [
+      "Valorant"
+    ]
+  }
+  
