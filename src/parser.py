@@ -48,7 +48,7 @@ def get_arg_parser() -> argparse.ArgumentParser:
         "-ml",
         "--min_length",
         type=int,
-        default=60,
+        default=480,
         help="Length of the compilation in seconds. Default is 360 (6 minutes)",
         required=False,
     )

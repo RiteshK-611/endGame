@@ -121,11 +121,14 @@ def load_token() -> str:
     else:
         return APIHandler.get_new_twitch_token()
 
-
+i = 0
 # Returns a valid game name which is in camelcase and doesnt contain any characters that are not possible in foldernames
 def get_valid_game_name(name: str) -> str:
     name = re.sub(r"[^a-zA-Z0-9]+", " ", name).title().replace(" ", "")
-    print(f"\n******************************{name}******************************\n")
+    global i
+    if(i == 0):
+        print(f"\n******************************{name}******************************\n")
+        i += 1
     return name[0].lower() + name[1:]
 
 

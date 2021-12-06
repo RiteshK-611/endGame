@@ -1,7 +1,7 @@
 from src.ClipHandler import ClipHandler
 from src.ClipCompilationCreator import ClipCompilationCreator
 from src.parser import get_arg_parser
-from src.DriveUploader import DriveUploader
+# from src.DriveUploader import DriveUploader
 import os
 import time
 import logging
@@ -29,6 +29,6 @@ ch.get_clips(
 )
 vcc = ClipCompilationCreator(game, args.asset_path, args.output_path)
 vcc.create_compilation()
-du = DriveUploader(game)
-print(f"\n{du}")
+# du = DriveUploader(game)
+# print(f"\n{du}")
 print("\n**********Done!**********\n")

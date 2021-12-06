@@ -13,7 +13,7 @@ from src.MetadataHandler import MetadataHandler
 class ClipCompilationCreator:
     def __init__(self, game: str, asset_path: str, output_path: str):
         self.output_path = output_path
-        self.game = game
+        self.game = utils.get_valid_game_name(game)
         self.raw_clips_dir = utils.get_game_path(config.DIRECTORIES["raw_clips_dir"], self.game, output_path)
         self.compilation_dir = utils.get_game_path(config.DIRECTORIES["compilation_dir"], self.game, output_path)
         self.overlay = os.path.join(asset_path, str(self.game), "watermark.png")
@@ -68,6 +68,7 @@ class ClipCompilationCreator:
 
     def composite_clips(self, clips: dict):
         try:
+            print(f"\n>>>>>>>>>>>>>>>>>>>{self.overlay}<<<<<<<<<<<<<<<<<<<\n")
             watermark = ImageClip(self.overlay).set_position((0.7, 0.1), relative=True)
         except FileNotFoundError:
             logging.warning("No watermark found -> video will be created without watermark")
